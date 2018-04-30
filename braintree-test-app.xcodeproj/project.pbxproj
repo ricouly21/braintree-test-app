@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFC003022097AF2100888E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC003012097AF2100888E05 /* AppDelegate.swift */; };
+		BFC003042097AF2100888E05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC003032097AF2100888E05 /* ViewController.swift */; };
+		BFC003072097AF2100888E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC003052097AF2100888E05 /* Main.storyboard */; };
+		BFC003092097AF2100888E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC003082097AF2100888E05 /* Assets.xcassets */; };
+		BFC0030C2097AF2100888E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC0030A2097AF2100888E05 /* LaunchScreen.storyboard */; };
+		BFC003172097AF2100888E05 /* braintree_test_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC003162097AF2100888E05 /* braintree_test_appTests.swift */; };
+		BFC003222097AF2100888E05 /* braintree_test_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC003212097AF2100888E05 /* braintree_test_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFC003132097AF2100888E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC002F62097AF2100888E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFC002FD2097AF2100888E05;
+			remoteInfo = "braintree-test-app";
+		};
+		BFC0031E2097AF2100888E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC002F62097AF2100888E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFC002FD2097AF2100888E05;
+			remoteInfo = "braintree-test-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFC002FE2097AF2100888E05 /* braintree-test-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "braintree-test-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC003012097AF2100888E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFC003032097AF2100888E05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFC003062097AF2100888E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFC003082097AF2100888E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFC0030B2097AF2100888E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFC0030D2097AF2100888E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC003122097AF2100888E05 /* braintree-test-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "braintree-test-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC003162097AF2100888E05 /* braintree_test_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = braintree_test_appTests.swift; sourceTree = "<group>"; };
+		BFC003182097AF2100888E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC0031D2097AF2100888E05 /* braintree-test-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "braintree-test-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC003212097AF2100888E05 /* braintree_test_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = braintree_test_appUITests.swift; sourceTree = "<group>"; };
+		BFC003232097AF2100888E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC002FB2097AF2100888E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC0030F2097AF2100888E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC0031A2097AF2100888E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFC002F52097AF2100888E05 = {
+			isa = PBXGroup;
+			children = (
+				BFC003002097AF2100888E05 /* braintree-test-app */,
+				BFC003152097AF2100888E05 /* braintree-test-appTests */,
+				BFC003202097AF2100888E05 /* braintree-test-appUITests */,
+				BFC002FF2097AF2100888E05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC002FF2097AF2100888E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC002FE2097AF2100888E05 /* braintree-test-app.app */,
+				BFC003122097AF2100888E05 /* braintree-test-appTests.xctest */,
+				BFC0031D2097AF2100888E05 /* braintree-test-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC003002097AF2100888E05 /* braintree-test-app */ = {
+			isa = PBXGroup;
+			children = (
+				BFC003012097AF2100888E05 /* AppDelegate.swift */,
+				BFC003032097AF2100888E05 /* ViewController.swift */,
+				BFC003052097AF2100888E05 /* Main.storyboard */,
+				BFC003082097AF2100888E05 /* Assets.xcassets */,
+				BFC0030A2097AF2100888E05 /* LaunchScreen.storyboard */,
+				BFC0030D2097AF2100888E05 /* Info.plist */,
+			);
+			path = "braintree-test-app";
+			sourceTree = "<group>";
+		};
+		BFC003152097AF2100888E05 /* braintree-test-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC003162097AF2100888E05 /* braintree_test_appTests.swift */,
+				BFC003182097AF2100888E05 /* Info.plist */,
+			);
+			path = "braintree-test-appTests";
+			sourceTree = "<group>";
+		};
+		BFC003202097AF2100888E05 /* braintree-test-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC003212097AF2100888E05 /* braintree_test_appUITests.swift */,
+				BFC003232097AF2100888E05 /* Info.plist */,
+			);
+			path = "braintree-test-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC002FD2097AF2100888E05 /* braintree-test-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC003262097AF2100888E05 /* Build configuration list for PBXNativeTarget "braintree-test-app" */;
+			buildPhases = (
+				BFC002FA2097AF2100888E05 /* Sources */,
+				BFC002FB2097AF2100888E05 /* Frameworks */,
+				BFC002FC2097AF2100888E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "braintree-test-app";
+			productName = "braintree-test-app";
+			productReference = BFC002FE2097AF2100888E05 /* braintree-test-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFC003112097AF2100888E05 /* braintree-test-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC003292097AF2100888E05 /* Build configuration list for PBXNativeTarget "braintree-test-appTests" */;
+			buildPhases = (
+				BFC0030E2097AF2100888E05 /* Sources */,
+				BFC0030F2097AF2100888E05 /* Frameworks */,
+				BFC003102097AF2100888E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC003142097AF2100888E05 /* PBXTargetDependency */,
+			);
+			name = "braintree-test-appTests";
+			productName = "braintree-test-appTests";
+			productReference = BFC003122097AF2100888E05 /* braintree-test-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFC0031C2097AF2100888E05 /* braintree-test-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC0032C2097AF2100888E05 /* Build configuration list for PBXNativeTarget "braintree-test-appUITests" */;
+			buildPhases = (
+				BFC003192097AF2100888E05 /* Sources */,
+				BFC0031A2097AF2100888E05 /* Frameworks */,
+				BFC0031B2097AF2100888E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC0031F2097AF2100888E05 /* PBXTargetDependency */,
+			);
+			name = "braintree-test-appUITests";
+			productName = "braintree-test-appUITests";
+			productReference = BFC0031D2097AF2100888E05 /* braintree-test-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC002F62097AF2100888E05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "DIrect Works Mobile";
+				TargetAttributes = {
+					BFC002FD2097AF2100888E05 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BFC003112097AF2100888E05 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFC002FD2097AF2100888E05;
+					};
+					BFC0031C2097AF2100888E05 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFC002FD2097AF2100888E05;
+					};
+				};
+			};
+			buildConfigurationList = BFC002F92097AF2100888E05 /* Build configuration list for PBXProject "braintree-test-app" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFC002F52097AF2100888E05;
+			productRefGroup = BFC002FF2097AF2100888E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC002FD2097AF2100888E05 /* braintree-test-app */,
+				BFC003112097AF2100888E05 /* braintree-test-appTests */,
+				BFC0031C2097AF2100888E05 /* braintree-test-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFC002FC2097AF2100888E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC0030C2097AF2100888E05 /* LaunchScreen.storyboard in Resources */,
+				BFC003092097AF2100888E05 /* Assets.xcassets in Resources */,
+				BFC003072097AF2100888E05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC003102097AF2100888E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC0031B2097AF2100888E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC002FA2097AF2100888E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC003042097AF2100888E05 /* ViewController.swift in Sources */,
+				BFC003022097AF2100888E05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC0030E2097AF2100888E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC003172097AF2100888E05 /* braintree_test_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC003192097AF2100888E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC003222097AF2100888E05 /* braintree_test_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFC003142097AF2100888E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFC002FD2097AF2100888E05 /* braintree-test-app */;
+			targetProxy = BFC003132097AF2100888E05 /* PBXContainerItemProxy */;
+		};
+		BFC0031F2097AF2100888E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFC002FD2097AF2100888E05 /* braintree-test-app */;
+			targetProxy = BFC0031E2097AF2100888E05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFC003052097AF2100888E05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC003062097AF2100888E05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFC0030A2097AF2100888E05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC0030B2097AF2100888E05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFC003242097AF2100888E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFC003252097AF2100888E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC003272097AF2100888E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHKVA2BK9F;
+				INFOPLIST_FILE = "braintree-test-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.directworksmobile.braintree-test-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC003282097AF2100888E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHKVA2BK9F;
+				INFOPLIST_FILE = "braintree-test-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.directworksmobile.braintree-test-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFC0032A2097AF2100888E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHKVA2BK9F;
+				INFOPLIST_FILE = "braintree-test-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.directworksmobile.braintree-test-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/braintree-test-app.app/braintree-test-app";
+			};
+			name = Debug;
+		};
+		BFC0032B2097AF2100888E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHKVA2BK9F;
+				INFOPLIST_FILE = "braintree-test-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.directworksmobile.braintree-test-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/braintree-test-app.app/braintree-test-app";
+			};
+			name = Release;
+		};
+		BFC0032D2097AF2100888E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHKVA2BK9F;
+				INFOPLIST_FILE = "braintree-test-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.directworksmobile.braintree-test-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "braintree-test-app";
+			};
+			name = Debug;
+		};
+		BFC0032E2097AF2100888E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHKVA2BK9F;
+				INFOPLIST_FILE = "braintree-test-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.directworksmobile.braintree-test-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "braintree-test-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC002F92097AF2100888E05 /* Build configuration list for PBXProject "braintree-test-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC003242097AF2100888E05 /* Debug */,
+				BFC003252097AF2100888E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC003262097AF2100888E05 /* Build configuration list for PBXNativeTarget "braintree-test-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC003272097AF2100888E05 /* Debug */,
+				BFC003282097AF2100888E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC003292097AF2100888E05 /* Build configuration list for PBXNativeTarget "braintree-test-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC0032A2097AF2100888E05 /* Debug */,
+				BFC0032B2097AF2100888E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC0032C2097AF2100888E05 /* Build configuration list for PBXNativeTarget "braintree-test-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC0032D2097AF2100888E05 /* Debug */,
+				BFC0032E2097AF2100888E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC002F62097AF2100888E05 /* Project object */;
+}
